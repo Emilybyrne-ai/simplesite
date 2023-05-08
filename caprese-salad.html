@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<title>Caprese Salad v2</title>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@500&family=Homemade+Apple&family=Montserrat&family=Quicksand:wght@500&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@500&family=Homemade+Apple&family=Montserrat&family=Poiret+One&family=Quicksand:wght@500&family=Raleway:wght@400;500&family=Red+Hat+Text&family=Yeseva+One&display=swap" rel="stylesheet">
+
+
+</head>
+
+<style>
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #F6F0E8;
+}
+
+.logo img {
+  height: 30px;
+  width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li {
+  margin: 0 50px;
+  margin-left: 50px;
+}
+
+nav li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav li a:hover {
+  color: #666;
+}
+
+.search {
+  margin-left: 380px;
+}
+
+.search input[type="text"] {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+}
+
+.search button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.search button:hover {
+  cursor: pointer;
+  background-color: #666;
+}
+
+
+/*END OF NAV*/
+
+
+/*HERO-LEFT - details*/
+
+
+
+
+.container-wrapper {  /*container around tags*/
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-top: 0px;
+  background-color: #508991;
+  width: 700px;
+}
+
+
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-size: 13px;
+  width: 620px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 10px;
+  align-items: center;
+  }
+
+
+
+  .tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 25px;
+  border: 1px solid #fff;
+  padding: 5px 18px;
+  height: 30px;
+  border-radius: 30px;
+  }
+
+.tag-details-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 1px solid #fff;
+  padding: 5px 18px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.tag-details-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #fff;
+  padding: 5px 18px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.tag-details-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  border: 1px solid #fff;
+  padding: 5px 18px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.tag-details-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  border: 1px solid #fff;
+  padding: 5px 18px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+
+img[alt="hero-image"] {
+  width: calc(100% + 30px);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.paragraph {
+  font-family: 'Red Hat Text', sans-serif;
+  width: 620px;
+  text-align: left;
+  line-height: 23px;
+  margin-right: 40px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  background-color: #162C3A;
+}
+
+.hero-image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.recipe-details {
+  padding-left: 60px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  background-color: #162C3A;
+  flex: 1;
+}
+
+
+.pin-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #BD081C;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 45px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.pin-button:hover {
+  background-color: #E60023; /* Update the background color on hover */
+}
+
+
+.pin-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.pin-text {
+  line-height: 1;
+}
+
+
+
+
+
+
+.h1-caprese {
+  font-family: 'Yeseva One', cursive;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  color: #DBA988;
+  padding-top: 90px;
+}
+
+.recipe-container {
+  padding-top: 30px;
+  background-image: url("image-2.jpg");
+  background-size: cover;
+}
+
+.serving-size {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #162C3A;
+  border: 1px solid #fff;
+  font-weight: bold;
+  margin-left: 70px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 220px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-left: 445px;
+  width: 200px;
+}
+
+.minus-button {
+  padding: 4px 4px;
+  background-color: #DBA988;
+  border: none;
+  border-radius: 15px;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.plus-button {
+  padding: 4px 4px;
+  background-color: #DBA988;
+  border: none;
+  border-radius: 15px;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.serving-count {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+
+.h2 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding-top: 0px;
+}
+
+.h2-a {
+  font-family: 'Yeseva One', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 60px;
+  padding-top: 0px;
+  color: #162C3A;
+}
+
+.ingredients-container {
+  margin-bottom: 30px;
+}
+
+
+.ingredients-container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding-left: 0px;
+  font-family: 'Red Hat Text', sans-serif;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 60px;
+  margin-top: 30px;
+  color: #162C3A;
+}
+
+
+.ingredients-list li {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.ingredients-list input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+.ingredients-list span {
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+/*METHOD*/
+
+
+
+.serving-ingredients-container {
+  margin-left: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  align-items: center;
+  padding-bottom: 50px;
+  width: 710px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.step-container-1 {
+  background-color: #fff;
+  border: 1px solid #000;
+
+  margin-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  width: 680px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  background-color: #162C3A;
+  margin-top: 100px;
+}
+
+.step-container-2 {
+  background-color: #162C3A;
+  border: 1px solid #000;
+  margin-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  width: 680px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  color: #000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.step-container-3 {
+  background-color: #162C3A;
+  border: 1px solid #000;
+  margin-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  width: 680px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  color: #000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+
+.method-container {
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+.h3 {
+  font-family: 'Yeseva One', cursive;
+  color: #DBA988;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.method-paragraph {
+  color: #fff;
+  font-family: 'Red Hat Text', sans-serif;
+  width: 600px;
+  padding-left: 40px;
+}
+
+
+
+.done-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: auto;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #162C3A;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+
+
+
+.done-button:hover {
+  background-color: #D97C50;
+  color: #fff;
+  transition: background-color 0.5s, color 0.5s;
+  border: 1px solid #D97C50;
+  transform: scale(1.1);
+}
+
+
+
+
+.button-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 0px;
+  height: 20px;
+  width: auto;
+  padding-right: 5px;
+}
+
+.button-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+
+.step-container-1 button {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.step-container-2 button {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.step-container-3 button {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+
+
+
+/*DONE TOGGLE*/
+
+
+footer {
+  background-color: #DBA988;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 90px;
+}
+
+.f-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logo-container img {
+height: 30px;
+width: auto;
+}
+
+.signup-container {
+  text-align: left;
+}
+
+.signup-container h3 {
+  margin: 0 0 10px 0;
+}
+
+.signup-container input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.signup-container button[type="submit"] {
+  background-color: #FF7F50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.signup-container button:hover {
+  background-color: #162C3A;
+}
+
+.social-media-container a {
+  margin-left: 10px;
+}
+
+.social-media-container img {
+  height: 50px;
+  width: auto;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
+</style>
+
+
+<body>
+
+
+  <header>
+    <nav>
+    
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Blog</a></li>
+        <li class="nav-menu"></li>
+      </ul>
+      <div class="logo">
+        <img src="h-logo-1.png" alt="Logo">
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </nav>
+  </header>
+  
+  
+
+  <div class="hero-container">
+    <div class="hero-image">
+      <img src="caprese-hero.png" alt="hero-image">
+    </div>
+    
+    <div class="recipe-details">
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <div>
+          <h1 class="h1-caprese" style="text-align: left; margin: 0;">Caprese Salad</h1>
+        </div>
+        <button class="pin-button">
+          <img src="pinterest.png" alt="Pinterest" class="pin-icon">
+          <span class="pin-text">Pin</span>
+        </button>
+        
+      </div>
+      <p class="paragraph" style="text-align: justify;">Caprese salad is a classic Italian dish that never fails 
+        to impress with its simplicity and fresh flavors. Made with juicy tomatoes, 
+        creamy mozzarella cheese, and aromatic basil leaves, it is the perfect appetizer 
+        or side dish for any occasion. The salad's colorful presentation makes it a beautiful 
+        addition to any table, and its light and refreshing taste make it a perfect complement 
+        to a variety of other dishes. Pair it with grilled chicken, seafood, or pasta, and you'll 
+        have a complete and satisfying meal that will leave your taste buds wanting more. 
+        Enjoy the fresh taste of summer with this delicious Caprese salad recipe!</p>
+       
+
+        <div class="tags-container">
+          <div class="tag-details-1"><span>Course: <strong>Side</strong></span></div>
+          <div class="tag-details-2"><span>Prep: <strong>10 mins</strong></span></div>
+          <div class="tag-details-3"><span>Cooking: <strong>None</strong></span></div>
+          <div class="tag-details-4"><span>Difficulty: <strong>Easy</strong></span></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  
+    
+  <div class="recipe-container">
+    <div class="method-container" style="flex: 1; margin-top: 50px;">
+      <div class="serving-ingredients-container">
+        <div class="serving-size">
+          <h3 style="display: inline-block; margin-right: 10px;">Servings:</h3>
+          <button class="minus-button" style="display: inline-block;">-</button>
+          <span class="serving-count" style="display: inline-block; margin: 0 10px;">4</span>
+          <button class="plus-button" style="display: inline-block;">+</button>
+        </div> 
+    
+        <div class="ingredients-container">
+          <h2 class="h2-a">Ingredients</h2>
+    
+          <ul class="ingredients-list">
+            <li><input type="checkbox"><span>200g heritage tomatoes</span></li>
+            <li><input type="checkbox"><span>1 large shallot, sliced thinly</span></li>
+            <li><input type="checkbox"><span>5 tbsp olive oil</span></li>
+            <li><input type="checkbox"><span>3 drops of Tabasco</span></li>
+            <li><input type="checkbox"><span>1 tbsp white wine vinegar</span></li>
+            <li><input type="checkbox"><span>6 basil leaves shredded</span></li>
+            <li><input type="checkbox"><span>150g buffalo mozzarella or burrata</span></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="step-container-1">
+        <h2 class="h2">Method</h2>
+        <h3 class="h3">Step 1</h3>
+        <p class="method-paragraph">Put the tomatoes in a bowl with the shallots and season with a large pinch of salt. Leave for 10 minutes for the tomatoes to release their juices.</p>
+        <button class="done-button" id="step-1-button">
+          <img src="done-white-1.png" alt="Icon" class="button-icon">
+          <span class="button-text">Done</span>
+        </button>
+        <div class="overlay" id="step-1-overlay"></div>
+      </div>
+    
+      <div class="step-container-2">
+        <h3 class="h3">Step 2</h3>
+        <p class="method-paragraph">Lift the tomatoes and shallots out of the bowl using a slotted spoon, and reserve the juices. Arrange the tomatoes over two plates, then sprinkle over the shallots.</p>
+        <button class="done-button" id="step-2-button">
+          <img src="done-white-1.png" alt="Icon" class="button-icon">
+          <span class="button-text">Done</span>
+        </button>
+      </div>
+    
+      <div class="step-container-3">
+        <h3 class="h3">Step 3</h3>
+        <p class="method-paragraph">Whisk the olive oil, Tabasco and vinegar into the reserved tomato juices to make a dressing. Drizzle over the tomatoes and shallots, then scatter with the shredded basil. Put one half of the mozzarella in the centre of each plate, and season with freshly ground black pepper. Top with the extra basil leaves, and serve.</p>
+        <button class="done-button" id="step-3-button">
+          <img src="done-white-1.png" alt="Icon" class="button-icon">
+          <span class="button-text">Done</span>
+        </button>
+      </div>
+  
+  
+
+
+
+
+<!--FOOTER-->
+<footer>
+  <div class="f-container">
+    <div class="logo-container">
+      <img src="footer-logo.png" alt="logo">
+    </div>
+    <div class="signup-container">
+      <h3>Subscribe to our newsletter</h3>
+      <input type="email" placeholder="Enter your email">
+      <button type="submit">Sign up</button>
+    </div>
+    <div class="social-media-container">
+      <a href="#"><img src="Facebook-blue.png" alt="Facebook" class="social-icon"></a>
+      <a href="#"><img src="Twitter-blue.png" alt="Twitter" class="social-icon"></a>
+      <a href="#"><img src="Instagram-blue.png" alt="Instagram" class="social-icon"></a>
+      <a href="#"><img src="Pinterest-blue.png" alt="Pinterest" class="social-icon"></a>
+    </div>
+  </div>
+</footer>
+    
+       
+    
+    
+  
+  
+  </body>
+  
